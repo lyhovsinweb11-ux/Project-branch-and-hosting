@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaWorks | Products</title>
+    <meta
+      name="description"
+      content="Browse NovaWorks products across our top categories."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="products">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="index.html">Nova<span>Works</span></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="products.html" class="nav-link active">Products</a>
+          <a href="history.html" class="nav-link">History</a>
+          <a href="contact.html" class="nav-link">Contact Us</a>
+          <a href="signin.html" class="nav-link">Sign In</a>
+          <a href="signup.html" class="nav-link">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero">
+        <div class="container">
+          <span class="eyebrow">Our catalog</span>
+          <h1>Products</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filter-bar" aria-label="Product filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="electronics">Electronics</button>
+            <button class="filter-btn" type="button" data-filter="accessories">Accessories</button>
+            <button class="filter-btn" type="button" data-filter="technology">Technology</button>
+            <button class="filter-btn" type="button" data-filter="other">Other</button>
+          </div>
+
+          <div class="card-row product-grid">
+            <article class="product-card product-item" data-category="electronics">
+              <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80" alt="Smart Speaker" />
+              <div class="product-content">
+                <span class="product-tag">Electronics</span>
+                <h3>Smart Speaker</h3>
+                <p>Modern wireless sound with voice control and room-filling audio.</p>
+                <div class="product-meta">
+                  <span class="price">$99</span>
+                  <a href="#" class="btn btn-small">View Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card product-item" data-category="technology">
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Performance Laptop" />
+              <div class="product-content">
+                <span class="product-tag">Technology</span>
+                <h3>Performance Laptop</h3>
+                <p>Fast, portable, and built for professional productivity and design work.</p>
+                <div class="product-meta">
+                  <span class="price">$1,299</span>
+                  <a href="#" class="btn btn-small">View Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card product-item" data-category="accessories">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80" alt="Classic Watch" />
+              <div class="product-content">
+                <span class="product-tag">Accessories</span>
+                <h3>Classic Watch</h3>
+                <p>Premium styling and practical features for everyday use and events.</p>
+                <div class="product-meta">
+                  <span class="price">$149</span>
+                  <a href="#" class="btn btn-small">View Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card product-item" data-category="technology">
+              <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80" alt="Tablet Device" />
+              <div class="product-content">
+                <span class="product-tag">Technology</span>
+                <h3>Business Tablet</h3>
+                <p>Designed for presentations, mobile work, and daily digital productivity.</p>
+                <div class="product-meta">
+                  <span class="price">$649</span>
+                  <a href="#" class="btn btn-small">View Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card product-item" data-category="other">
+              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80" alt="Desk Setup" />
+              <div class="product-content">
+                <span class="product-tag">Other</span>
+                <h3>Workspace Kit</h3>
+                <p>Everything needed to organize and improve a modern workspace.</p>
+                <div class="product-meta">
+                  <span class="price">$89</span>
+                  <a href="#" class="btn btn-small">View Details</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card product-item" data-category="accessories">
+              <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80" alt="Wireless Earbuds" />
+              <div class="product-content">
+                <span class="product-tag">Accessories</span>
+                <h3>Wireless Earbuds</h3>
+                <p>Lightweight comfort and powerful sound for commuting and focused work.</p>
+                <div class="product-meta">
+                  <span class="price">$79</span>
+                  <a href="#" class="btn btn-small">View Details</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a class="logo" href="index.html">Nova<span>Works</span></a>
+          <p>Modern solutions and dependable products for every growing business.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li>88 Market Street, New York</li>
+            <li>+1 (555) 123-4567</li>
+            <li>hello@novaworks.com</li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-list">
+            <span>Facebook</span>
+            <span>Instagram</span>
+            <span>LinkedIn</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 NovaWorks. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
